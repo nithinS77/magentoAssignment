@@ -1,0 +1,36 @@
+/* Extra large screens, TV */
+@media only screen and (min-device-width: 1201px) {
+    #search {
+        border-radius: 30px;
+        border: black 1px solid;
+    }
+    .search {
+        margin-left: -550px;
+        width: 430px;
+        /* margin-right: 550px; */
+    }
+}
+
+/* Desktops, large screens */
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1200px) {
+    #search {
+        border-radius: 30px;
+        border: black 1px solid;
+    }
+    .search {
+        margin-left: -550px;
+        margin-right: 400px;
+    }
+}
+
+/* Small screens, laptops */
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    #search {
+        border-radius: 30px;
+        border: black 1px solid;
+    }
+    .search {
+        margin-left: -300px;
+        margin-right: 250px;
+    }
+}
